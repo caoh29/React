@@ -19,7 +19,7 @@ function App() {
         <input type="checkbox" id="checkbox" />
         <div className="slider round"></div>
       </label>
-      <h1 className='title'>Solar system planets:</h1>
+      <h1 style={{ color: '#999', fontSize: '19px' }}>Solar system planets:</h1>
       <ul className='planets-list'>
         {
           PLANETS.map((planet, index) => <li key={index}>{planet}</li>)
