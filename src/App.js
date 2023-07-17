@@ -1,4 +1,5 @@
 import './App.css';
+import './slider.css';
 
 const PLANETS = [
   'Mercury',
@@ -14,6 +15,10 @@ const PLANETS = [
 function App() {
   return (
     <div className="App">
+      <label className="switch" htmlFor="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div className="slider round"></div>
+      </label>
       <h1 className='title'>Solar system planets:</h1>
       <ul className='planets-list'>
         {
